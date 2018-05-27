@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <title>space and shitz</title>
+  <meta charset = "UTF-8">
+  <meta name = "viewpoint" content="width = device - width, initial-scale=1.0">
+
+<style>
+.header{
+	text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.btn .button {
+  background-color: #0c1429; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn .button:hover {
+  margin-top: .3rem;
+  background-color: #192440;
+}
+
+body {
+  background-image:url('space.jpg');
+  background-repeat: repeat-y;
+}
+</style>
+</head>
+
+<body>
+  <div class="btn">
+    <button class="button" onclick="homeFunction()">Home</button>
+    <button class="button" onclick="planetFunction()">Planets</button>
+    <button class="button" onclick="starFunction()">Stars</button>
+    <button class="button" onclick="constellationsFunction()">Constellations</button>
+    <button class="button" onclick="holeFunction()">Black Holes</button>
+  </div>
+
+<br>
+<br>
+<br>
+<h1 class="header">Planets</h1>
+
+<script type="text/javascript">
+  function homeFunction(){
+     window.location='home.html';
+  }
+  function planetFunction(){
+     window.location='planets.html';
+  }
+  function starFunction(){
+     window.location='stars.html';
+  }
+  function constellationsFunction(){
+     window.location='constellations.html';
+  }
+  function holeFunction(){
+     window.location='bhole.html';
+  }
+</script>
+
+
+</body>
+</html>
